@@ -1,0 +1,3 @@
+SELECT user_reg.Name, user_reg.Mobile, tbl_taxi_order.Order_Date, tbl_taxi_order.Order_Time, tbl_taxi_order.Order_Address 
+FROM `user_reg`, `tbl_taxi_order` 
+WHERE user_reg.User_ID= tbl_taxi_order.User_ID

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pgh"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ds"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.pgh.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Taxi.TaxiHomeActivity"
+            android:label="@string/title_activity_taxi_home" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Taxi.LetsStart1Activity"
+            android:label="@string/title_activity_lets_start1" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Taxi.LetsStart2Activity"
+            android:label="@string/title_activity_lets_start2" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Taxi.TaxiHome1Activity"
+            android:label="@string/title_activity_taxi_home1" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Taxi.UpdateTaxiActivity"
+            android:label="@string/title_activity_update_taxi" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.User.SearchTaxiActivity"
+            android:label="@string/title_activity_search_taxi" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Taxi.FilterActivity"
+            android:label="@string/title_activity_filter" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.User.ShowTaxiActivity"
+            android:label="@string/title_activity_show_taxi" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Taxi.TaxiOrdersActivity"
+            android:label="@string/title_activity_taxi_orders" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Property.AddPropertyAdvActivity"
+            android:label="@string/title_activity_add_property_adv" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Property.AddPropertyAdv1Activity"
+            android:label="@string/title_activity_add_property_adv1" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.UserHomeActivity"
+            android:label="@string/title_activity_user_home" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Water.AddWaterAdvActivity"
+            android:label="@string/title_activity_add_water_adv" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Water.AddWaterAdv1Activity"
+            android:label="@string/title_activity_add_water_adv1" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Food.AddFoodAdvActivity"
+            android:label="@string/title_activity_add_food_adv" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Food.AddFoodAdv1Activity"
+            android:label="@string/title_activity_add_food_adv1" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.User.ShowWaterActivity"
+            android:label="@string/title_activity_show_water" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.User.ShowFoodActivity"
+            android:label="@string/title_activity_show_food" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.User.SearchPropertyActivity"
+            android:label="@string/title_activity_search_property" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.RegCatActivity"
+            android:label="@string/title_activity_reg_cat" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.UserRegister1Activity"
+            android:label="@string/title_activity_user_register1" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.UserRegisterActivity"
+            android:label="@string/title_activity_user_register" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.WaterHomeActivity"
+            android:label="@string/title_activity_water_home" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Food.FoodHomeActivity"
+            android:label="@string/title_activity_food_home" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.PropertyHomeActivity"
+            android:label="@string/title_activity_property_home" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Water.WaterMyAdvActivity"
+            android:label="@string/title_activity_water_my_adv" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Food.FoodMyAdvActivity"
+            android:label="@string/title_activity_food_my_adv" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.PropertyMyAdvActivity"
+            android:label="@string/title_activity_property_my_adv" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.User.ShowProperty"
+            android:label="@string/title_activity_show_property" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.User.ShowFood1Activity"
+            android:label="@string/title_activity_show_food1" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.User.ShowWater1Activity"
+            android:label="@string/title_activity_show_water1" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.UserOrderActivity"
+            android:label="@string/title_activity_user_order" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.StartActivity"
+            android:label="@string/title_activity_start" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pgh.Taxi.TaxiFacOrderMainActivity"
+            android:label="@string/title_activity_taxi_fac_order_main" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Food.FoodFacOrderMainActivity"
+            android:label="@string/title_activity_food_fac_order_main" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Water.WaterFacOrdMainActivity"
+            android:label="@string/title_activity_water_fac_ord_main" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.LoactionMainActivity"
+            android:label="@string/title_activity_loaction_main" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.LocMainActivity"
+            android:label="@string/title_activity_loc_main" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.ResMainActivity"
+            android:label="@string/title_activity_res_main" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.PhrMainActivity"
+            android:label="@string/title_activity_phr_main" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.GosMainActivity"
+            android:label="@string/title_activity_gos_main" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.ConditionMainActivity"
+            android:label="@string/title_activity_condition_main" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Food.FoodPacMainActivity"
+            android:label="@string/title_activity_food_pac_main" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.Water.WaterPacMainActivity"
+            android:label="@string/title_activity_water_pac_main" >
+        </activity>
+        <activity android:name="com.example.pgh.ConditionMainActivity1" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.ShowProfile"
+            android:label="@string/title_activity_show_profile" >
+        </activity>
+        <activity
+            android:name="com.example.pgh.UserPackage"
+            android:label="@string/title_activity_user_package" >
+            
+        </activity>
+    </application>
+
+</manifest>

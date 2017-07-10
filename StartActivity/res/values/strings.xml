@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PGH</string>
+    <string name="hello_world">PGH</string>
+    <string name="action_settings">PGH</string>
+    <string name="title_activity_taxi_home">PGH</string>
+    <string name="title_activity_lets_start1">PGH</string>
+    <string name="title_activity_lets_start2">PGH</string>
+    <string name="title_activity_taxi_home1">PGH</string>
+    <string name="title_activity_update_taxi">PGH</string>
+    <string name="title_activity_search_taxi">PGH</string>
+    <string name="title_activity_filter">PGH</string>
+    <string name="title_activity_show_taxi">PGH</string>
+    <string name="title_activity_taxi_orders">PGH</string>
+    <string name="title_activity_add_property_adv">PGH</string>
+    <string name="title_activity_add_property_adv1">PGH</string>
+    <string name="title_activity_user_home">PGH</string>
+    <string name="title_activity_add_water_adv">PGH</string>
+    <string name="title_activity_add_water_adv1">PGH</string>
+    <string name="title_activity_add_food_adv">PGH</string>
+    <string name="title_activity_add_food_adv1">PGH</string>
+    <string name="title_activity_show_water">PGH</string>
+    <string name="title_activity_show_food">PGH</string>
+    <string name="title_activity_search_property">PGH</string>
+    <string name="title_activity_reg_cat">PGH</string>
+    <string name="title_activity_user_register1">PGH</string>
+    <string name="title_activity_user_register">PGH</string>
+    <string name="title_activity_water_home">PGH</string>
+    <string name="title_activity_food_home">PGH</string>
+    <string name="title_activity_property_home">PGH</string>
+    <string name="title_activity_water_my_adv">PGH</string>
+    <string name="title_activity_food_my_adv">PGH</string>
+    <string name="title_activity_property_my_adv">PGH</string>
+    <string name="title_activity_show_property">PGH</string>
+    <string name="title_activity_show_food1">PGH</string>
+    <string name="title_activity_show_water1">PGH</string>
+    <string name="title_activity_user_order">PGH</string>
+    <string name="title_activity_start">PGH</string>
+    <string name="title_activity_taxi_fac_order_main">PGH</string>
+    <string name="title_activity_main">PGH</string>
+    <string name="title_activity_food_fac_order_main">PGH</string>
+    <string name="title_activity_water_fac_ord_main">PGH</string>
+    <string name="title_activity_loaction_main">LoactionMainActivity</string>
+    <string name="title_activity_loc_main">LocMainActivity</string>
+    <string name="title_activity_res_main">ResMainActivity</string>
+    <string name="title_activity_phr_main">PhrMainActivity</string>
+    <string name="title_activity_gos_main">GosMainActivity</string>
+    <string name="title_activity_condition_main">ConditionMainActivity</string>
+    <string name="title_activity_food_pac_main">FoodPacMainActivity</string>
+    <string name="title_activity_water_pac_main">WaterPacMainActivity</string>
+    <string name="title_activity_show_profile">ShowProfile</string>
+    <string name="title_activity_user_package">UserPackage</string>
+
+</resources>

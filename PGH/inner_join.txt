@@ -1,0 +1,5 @@
+SELECT Food_Order_ID,Adv_ID,tbl_food_order.User_ID,Owner_ID,Order_Date,Order_Time,Order_Address,tbl_food_order.Status,user_reg1.Title,tbl_food_adv.Rate 
+FROM tbl_food_order 
+	INNER JOIN user_reg1 ON tbl_food_order.Owner_ID=user_reg1.User_ID 
+	INNER JOIN tbl_food_adv ON tbl_food_order.Adv_ID=tbl_food_adv.Food_ID 
+WHERE tbl_food_order.User_ID=user_reg1.User_ID
